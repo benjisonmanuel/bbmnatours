@@ -20,7 +20,9 @@
 
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
-      <label for="navi-toggle" class="navigation__button">MENU</label>
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
 
       <div class="navigation__background">&nbsp;</div>
 
@@ -63,7 +65,7 @@
           <span class="heading-primary--sub">is where life happens</span>
         </h1>
 
-        <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+        <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
       </div>
     </header>
     <!-- About -->
@@ -172,7 +174,7 @@
       </section>
 
       <!-- Tours -->
-      <section class="section-tours">
+      <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">
             most popular tours
@@ -211,7 +213,7 @@
                       $297
                     </p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -248,7 +250,7 @@
                       $497
                     </p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -285,7 +287,7 @@
                       $895
                     </p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -380,7 +382,7 @@
               <form action="#" class="form">
                 <div class="u-margin-bottom-medium">
                   <h2 class="heading-secondary">
-                    start booking now
+                    start booking
                   </h2>
                 </div>
 
@@ -472,17 +474,37 @@
         </div>
         <div class="col-1-of-2">
           <p class="footer__copyright">
-            Built my <a href="#" class="footer__link">Natours </a> for this
-            online course
-            <a href="#" class="footer__link">Advanced CSS and Sass </a>.
-            Copyright &copy; by Benjison Manuel. You are 100% allowed to use
-            this webpage for both personal and commercial use, but NOT to claim
-            it as your own design. A credit to original author, Jonas
-            Schmedtmann, is of course highly appreciated!
+            Designed by
+            <a href="#" class="footer__link">jonas schmedtmann </a> for his
+            course <a href="#" class="footer__link">Advanced CSS and Sass </a>.
+            Coded by
+            <a href="https://www.facebook.com/imback2k10" class="footer__link"
+              >benjison manuel</a>
+          </br>
+            Copyright &copy; JONAS SCHMEDTMAN.
           </p>
         </div>
       </div>
     </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+        </div>
+
+        <div class="popup__right">
+          <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+          <h3 class="heading-tertiary .u-margin-bottom-smart">Important &ndash; By booking you agree with terms and cond.</h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit ait ut tortor.  tortor posuere ac. Arcu vitae elementum curabitur vitae nunc sed. Cursus vitae congue mauris rhoncus. Lectus sit amet est placerat. Orci sagittis eu volutpat odio. Viverra nibh cras pulvinar mattis nunc sed blandit libero. Viverra nam libero justo laoreet. Fermentum odio eu feugiat pretium. Lobortis scelerisque fermentum dui faucibus. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Augue lacus viverra vitae congue eu consequat. Quam viverra orci sagittis eu volutpat. Nam at lectus urna duis convallis convallis tellus id. Aliquam ultrices sagittis orci a scelerisque purus semper eget duis.
+          </p>
+          <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </div>
+      
+    </div>
 
     <!-- <section class="grid-test">
       <div class="row">
