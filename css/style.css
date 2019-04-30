@@ -571,6 +571,9 @@ body {
   .footer__logo-box {
     text-align: center;
     margin-bottom: 8rem; }
+    @media (max-width: 56.3em) {
+      .footer__logo-box {
+        margin-bottom: 6rem; } }
   .footer__logo {
     width: 15rem; }
   .footer__navigation {
